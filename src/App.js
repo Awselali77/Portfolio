@@ -13,12 +13,14 @@ class App extends Component {
             <Navigation>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/contact">Contact</Link>
+                <Link to="/resume">Resume</Link>
             </Navigation>
         </Header>
         <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Aws Portfolio</Link>}>
             <Navigation>
               <Link to="/aboutme">About Me</Link>
               <Link to="/contact">Contact</Link>
+              <Link to="/resume">Resume</Link>
             </Navigation>
         </Drawer>
         <Content>
